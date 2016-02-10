@@ -5,6 +5,8 @@ This code involve listening to the gyroscopes manually and translating those val
 This solution relies just on the gyroscopes values, but it can be also implemented using the rotation vector sensor by modifying the operations in
 the onSensorChanged method of the handler to include the call to Sensor.TYPE_ROTATION_VECTOR.
 
+#### Usage
+
 ```java
 
 public class GridDemo extends Activity implements HeadCursorMotionListener{
