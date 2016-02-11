@@ -9,7 +9,7 @@ the onSensorChanged method of the handler to include the call to Sensor.TYPE_ROT
 
 ```java
 
-public class GridDemo extends Activity implements HeadCursorMotionListener{
+public class MainActivity extends Activity implements HeadCursorMotionListener{
 
     private HeadCursorMotionHandler mHeadCursorMotionHandler;
 
